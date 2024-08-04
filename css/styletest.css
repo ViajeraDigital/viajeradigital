@@ -1,0 +1,60 @@
+body{
+    background-color:#FFEEA9;
+   
+ }
+
+ .flex-container{
+    display:flex;
+    justify-content: center;    
+    align-items: center;
+    height: 70vh;
+    text-align: center;
+      }
+
+#hero{
+    background-color:#FFEEA9;
+    img {
+        border-radius: 10px;
+      margin-left: 10rem;
+      height: 400px;
+    }
+}
+    
+
+#resume{
+        background-color: #FEFFD2;
+        img {
+        border-radius: 50%
+     }
+p2 {text-align: top;}
+
+}
+
+.introduction {
+    width: 500px;
+    margin-left:50px;
+}
+#projects{
+        background-color:#FFBF78 }
+#interests{
+        background-color: #FEFFD2 }
+#contact{
+        background-color:#FF7D29 }
+footer{
+        background-color:#FFEEA9 }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: "Playfair Display", serif;}
+
+            h1{
+                font-size: 5rem;
+                margin-bottom: 0px;
+            }
+
+            h2{
+                font-size: 3rem;
+                margin-top: 0px;
+            }
