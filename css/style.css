@@ -2,7 +2,12 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 0
+    }
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -101,7 +106,7 @@ img {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 300px 300px;
     gap: 20px;
-    padding-left: 10rem;
+    padding-left: 3rem;
     padding-bottom: 5rem;
     justify-content: center;
     align-items: center;
@@ -150,8 +155,9 @@ img {
     display:flex;
     flex-direction: column;
     padding: 5rem;
-    justify-content:center;    align-self: center;
-    width: 100%;
+    justify-content:center;    
+    align-self: center;
+    width: 100vw;
     box-sizing: border-box;
         }
 
@@ -174,12 +180,12 @@ img {
                 margin-bottom: 0;
             }
     
-footer {
+footer > div {
         background-color:rgb(202, 216, 216);
+        width: 100vw;
         display:flex;
         padding-left:0rem;
         justify-content: center;
-        width: 100%;
         }
 
 footer >p {
