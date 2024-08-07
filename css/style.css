@@ -21,7 +21,7 @@ padding-right: 2rem;
 
 h2{
 font-size: 3rem;
-margin-top: 0;
+margin: 0;
 }
 
 p{
@@ -61,7 +61,6 @@ img {
         width:100%;
         display:flex;
         flex-direction: row;
-        padding: 5rem;
         justify-content:center;
     }
 
@@ -70,13 +69,15 @@ img {
     flex-direction: column;
     justify-content: center;    
     align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .introduction {
     max-width: 50rem;
     align-self: center;
-    margin-left: 3rem;
-    margin-right: 10rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .proyectos {
@@ -88,7 +89,7 @@ img {
 }
 .summary {
     display:flex;
-    padding: 3rem;
+    padding: 2rem;
     justify-content: center;   
     }
 
@@ -106,10 +107,9 @@ img {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 300px 300px;
     gap: 20px;
-    padding-left: 3rem;
-    padding-bottom: 5rem;
     justify-content: center;
     align-items: center;
+    padding-bottom: 2rem;
     }
 
     .card {
@@ -119,47 +119,58 @@ img {
         align-items:center;
         text-align: center;
     }
-    .grid-contain {
-        display: grid;
-        width:100%;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 250px;
-        gap: 20px;
-        justify-content:center;
-        align-items: center;
-        }
-
-    .cardi {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items:center;
-            text-align: center;
-            padding: 0rem;
-            border: 10px white solid;
-            border-radius: 15px;
-            width:auto;
-    }
-
-    .cardi> img {
-        margin:0;
-    }
-    #interests {
-        display:flex;
-        justify-content:center;
-        padding: 0;
-        margin: 0;
-        }
-.intereses{
+  
+#interests {
     background-color: #e8e7e7;
     display:flex;
     flex-direction: column;
-    padding: 5rem;
+    justify-content:center;
+    padding: 0;
+    margin: 0;
+        }
+
+.intereses{
+    display:flex;
+    flex-direction: column;
+    padding: 2rem;
     justify-content:center;    
     align-self: center;
-    width: 100vw;
+    width: auto;
     box-sizing: border-box;
         }
+
+.grid-contain {
+    display: grid;
+    width:auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5rem;
+    justify-content:center;
+    padding-bottom: 1rem;
+   }
+  
+.cardi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border: 10px white solid;
+    border-radius: 15px;
+    width: 200px; /* Set a fixed width */
+    height: 250px;
+    box-sizing: border-box;
+        }
+
+.cardi> img {
+    width: 180px; /* Ensure image fits the width of the container */
+    height: 180px; /* Ensure image fits the height of the container */
+    object-fit: cover; /* Crop the image to cover the container */
+    border-radius: 10px; /* Keep the border-radius for the image */
+    margin:0;
+    padding:0;
+    }
 
 #contact{
         padding-top: 1rem;
@@ -219,12 +230,7 @@ footer >p {
         flex-direction: column;
         height: auto;
         justify-content: center;    
-        align-items: center;
-        padding: 1rem;
-}
-
-.introduction {
-    margin-right: 2rem;
+        align-items: center;       
 }
 
 #projects{
@@ -307,7 +313,8 @@ footer > p {
    padding-top:0.5rem;
    padding-bottom: 0.5rem;
    margin: 0;
-    text-align: center;
+   text-align: center;
+   font-size: 1rem;
     }
 
 
